@@ -17,11 +17,11 @@ public class SalesManager extends SalesRep {
 	//calcula comision
 	@Override
 	public int calculateComission(){
-		double comission=0;
+		double comission=this.getSalesMade();
 		
 		for (SalesRep sales : this.salesTeam.values()) {
 			
-			comission+=sales.getSalary();	
+			comission+=sales.getSalesMade();	
 		}
 		
 		comission= comission*0.03;

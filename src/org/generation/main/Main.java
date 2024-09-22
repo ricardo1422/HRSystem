@@ -12,15 +12,15 @@ public class Main {
 		
 		Employee ricardo= new Employee("Ricardo","Alfaro", 215, 24, 357, 4, 14258.32, 2 );
 		SalesRep adrian= new SalesRep("Adrian","García", 216, 38, 340, 10, 24258.32, 29, 35800 );
-		SalesRep paola= new SalesRep("Paola","Perea", 350, 57, 339, 10, 15288.32, 33, 15800 );
-		SalesRep lizeth= new SalesRep("Lizeth", "García", 400, 28, 360, 7, 35800, 5, 40000);
-		SalesRep alberto= new SalesRep("Alberto", "Rojas", 425, 42, 358, 5, 37800, 15, 42000);
+		SalesRep paola= new SalesRep("Paola","Perea", 350, 57, 339, 10, 15288.32, 33, 25800 );
+		SalesRep lizeth= new SalesRep("Lizeth", "García", 400, 28, 360, 7, 35800, 5, 50000);
+		SalesRep alberto= new SalesRep("Alberto", "Rojas", 425, 42, 358, 5, 37800, 15, 52000);
 		HashMap<Integer, SalesRep> salesTeam = new HashMap<Integer, SalesRep>();
 		salesTeam.put(216,adrian);
 		salesTeam.put(350,paola);
 		salesTeam.put(400,lizeth);
 		salesTeam.put(425,alberto);
-		SalesManager alejandro = new SalesManager("Alejandro", "Ramirez",632,50,364,10,50000,25,57000,salesTeam);
+		SalesManager alejandro = new SalesManager("Alejandro", "Ramirez",632,50,364,10,50000,25,70000,salesTeam);
 		
 		ricardo.toString();
 		adrian.toString();
